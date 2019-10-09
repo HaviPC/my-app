@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-app';
   title1 = 1;
-  value2:number=2;
+  value2:number=3;
   value3:number;
   ngOnInit(){
     localStorage.setItem('whatever', 'title1');
